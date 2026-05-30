@@ -93,13 +93,7 @@ Wait for the project to load (no external dependencies).
 ### 3. Build and run
 The easiest way to run the game is directly from your IDE: locate the `Application` class and run it.
 
-Alternatively, build and run via Gradle:
-
-#### 1. Build the project
+Alternatively, run via Gradle:
 ```bash
-./gradlew build
-```
-#### 2. Run the generated JAR
-```bash
-java -jar build/libs/minesweeper-*.jar
+./gradlew run
 ```
