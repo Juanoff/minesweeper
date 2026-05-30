@@ -1,9 +1,18 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
 group = 'ru.shift'
 version = '1.0-SNAPSHOT'
+
+application {
+    mainClass = 'ru.shift.app.Application'
+}
+
+java {
+    sourceCompatibility = '21'
+}
 
 repositories {
     mavenCentral()
